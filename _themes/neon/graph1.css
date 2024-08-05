@@ -1,0 +1,97 @@
+<style>
+.mstheme
+{
+	nav-banner-image: url(neoabnr.gif);
+	separator-image: url(neoarule.gif);
+	list-image-1: url(neoabull1.gif);
+	list-image-2: url(neoabull2.gif);
+	list-image-3: url(neoabull3.gif);
+
+
+	navbutton-horiz-normal: url(neoahnd.gif);
+	navbutton-horiz-hovered: url(neoahnm.gif);
+	navbutton-horiz-pushed: url(neoahns.gif);
+
+	navbutton-vert-normal: url(neoavnd.gif);
+	navbutton-vert-pushed: url(neoavns.gif);
+	navbutton-vert-hovered: url(neoavnm.gif);
+
+	navbutton-home-normal: url(neoahom.gif);
+	navbutton-home-hovered: url(neoahomm.gif);
+	navbutton-home-pushed: url(neoahoms.gif);
+
+	navbutton-next-normal: url(neoanex.gif);
+	navbutton-next-hovered: url(neoanexm.gif);
+	navbutton-next-pushed: url(neoanexs.gif);
+
+	navbutton-prev-normal: url(neoapre.gif);
+	navbutton-prev-hovered: url(neoaprem.gif);
+	navbutton-prev-pushed: url(neoapres.gif);
+
+	navbutton-up-normal: url(neoaup.gif);
+	navbutton-up-hovered: url(neoaupm.gif);
+	navbutton-up-pushed: url(neoaups.gif);
+
+}
+
+.mstheme-bannertxt
+{
+	font-family: Verdana, Arial, Helvetica;
+	color: rgb(204,255,0);
+	text-align: center;
+	vertical-align: middle;
+}
+.mstheme-horiz-navtxt
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: left;
+	vertical-align: middle;
+}
+
+.mstheme-vert-navtxt
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: right;
+	vertical-align: middle;
+}
+
+.mstheme-navtxthome
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtnext
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtprev
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mstheme-navtxtup
+{
+	font-family: Verdana, Arial, Helvetica;
+
+	color: rgb(255,255,153);
+	text-align: center;
+	vertical-align: middle;
+}
+</style>.
