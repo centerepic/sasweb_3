@@ -68,9 +68,21 @@
 
 <body background="https://github.com/centerepic/sasweb_3/blob/main/_themes/neon/neobkgnd.gif?raw=true" bgcolor="#000000" text="#66FF33" link="#CCFF00" vlink="#66CC00" alink="#FFFF00">
     <!--msnavigation-->
-     <embed src="http://deinesv.cf/silence.mp3" type="audio/mp3" autostart="true" hidden="true">
-    <audio id="player" autoplay controls><source src="music.mp3" type="audio/mp3"></audio>
-    
+    <iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+    <audio autoplay loop  id="playAudio">
+        <source src="music.mp3">
+    </audio>
+
+    <script>
+        var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+          if (!isChrome){
+              $('#iframeAudio').remove()
+          }
+          else {
+              $('#playAudio').remove()
+          }
+    </script>
+        
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
         <tr>
             <td>
